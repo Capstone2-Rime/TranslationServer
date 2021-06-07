@@ -40,7 +40,7 @@ You sholud install library in https://github.com/Capstone2-Rime/Dataset<br>
   pip install pymysql
 ```
 
-\*\*\*you should make your database and set account in connect.py\*\*\*
+\*\* you should make your database and set account in connect.py \*\*
 ## Start
 
 ```
