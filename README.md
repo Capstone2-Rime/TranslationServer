@@ -1,7 +1,7 @@
 # TranslationServer
 </hr>
-
-## Google STT API
+## Installation
+### Google STT API
 ```
   echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list 
   sudo apt-get install apt-transport-https ca-certificates gnupg
@@ -15,16 +15,21 @@
 
   python3 -m pip install --upgrade google-cloud-speech
 
-  export GOOGLE_APPLICATION_CREDENTIALS="json key Path"
+  export GOOGLE_APPLICATION_CREDENTIALS="YOUR JSON KEY PATH"
 ```
-## Text Processing
+### Text Processing
 ```
   pip install hgtk
 ```
 ```
   pip install textdistance
 ```
-## Maria DB
+### Maria DB
 ```
   pip install pymysql
+```
+you should make your database and set account in connect.py 
+## Start
+```
+  python3 audio2captionServer.py
 ```
