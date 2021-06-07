@@ -30,6 +30,7 @@
 ```
   pip install textdistance
 ```
+You sholud install library in https://github.com/Capstone2-Rime/Dataset
 
 ### Maria DB
 
