@@ -31,7 +31,7 @@
   pip install textdistance
 ```
 You sholud install library in https://github.com/Capstone2-Rime/Dataset<br>
-Set your path in makeSttDataset.py
+\*\*\*Set your path in makeSttDataset.py\*\*\*
 
 
 ### Maria DB
@@ -40,7 +40,7 @@ Set your path in makeSttDataset.py
   pip install pymysql
 ```
 
-you should make your database and set account in connect.py 
+\*\*\*you should make your database and set account in connect.py\*\*\*
 ## Start
 
 ```
