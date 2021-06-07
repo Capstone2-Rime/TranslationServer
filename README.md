@@ -18,7 +18,7 @@
 
   python3 -m pip install --upgrade google-cloud-speech
 
-  export GOOGLE_APPLICATION_CREDENTIALS="YOUR JSON KEY PATH"
+  export GOOGLE_APPLICATION_CREDENTIALS="YOUR GOOGLE CLOUD JSON KEY PATH"
 ```
 
 ### Text Processing
@@ -31,7 +31,7 @@
   pip install textdistance
 ```
 You sholud install library in https://github.com/Capstone2-Rime/Dataset<br>
-\*\*\*Set your path in makeSttDataset.py\*\*\*
+***Set your path in makeSttDataset.py***
 
 
 ### Maria DB
@@ -40,7 +40,7 @@ You sholud install library in https://github.com/Capstone2-Rime/Dataset<br>
   pip install pymysql
 ```
 
-\*\* you should make your database and set account in connect.py \*\*
+***you should make your database and set account in connect.py***
 ## Start
 
 ```
